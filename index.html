@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page Interativa</title>
+</head>
+<body>
+
+      <!-- ============================ -->
+    <!--  CABEÇALHO PRINCIPAL -->
+    <!-- Contém a logo, o menu de navegação e o botão do menu hambúrguer -->
+    <!-- ============================ -->
+    <header class="main-header">
+        <div class="logo">
+            <a href="#home" aria-label="Voltar para a página inicial">
+                <img src="assets/Logo.png" width="200px" alt="Landing Page Interativa - Desenvolvimento Web">
+            </a>
+        </div>
+
+        <nav class="navbar">
+          <div class="menu-hamburger" id="menu-hamburger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <ul class="nav-list">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#features">Recursos</a></li>
+            <li><a href="#stats-section">Resultados</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact" class="nav-cta">Contato</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <!-- ============================ -->
+    <!--  SEÇÃO HERO -->
+    <!-- Destaque inicial com chamada principal e cards de recursos -->
+    <!-- ============================ -->
+    <main>
+        <section id="home" class="hero-section">
+
+            <div class="hero-content">
+                <h1>Transforme <br> Sua ideia em <br> Realidade Digital</h1>
+                <p class="subtitle">Soluções criativas e interativas para o seu negócio.</p>
+
+                 <a href="#features" class="cta-button primary-cta">QUERO SABER MAIS</a>
+            </div>
+
+            <ul class="feature-cards-container">
+                <li class="feature-card">
+                 <img src="assets/Fácil de testar.png" width="200px" alt="Ícone de facilidade de testar">
+                <h4 class="card-title">Fácil de testar</h4>
+                </li>
+
+                <li class="feature-card">
+                <img src="assets/Gestão de times.png" width="200px" alt="Ícone de gestão de times">
+                <h4 class="card-title">Gestão simples de times</h4>
+                </li>
+
+                <li class="feature-card">
+                <img src="assets/Expansão.png" width="200px" alt="Ícone de expansão">
+                <h4 class="card-title">Possibilidade de expansão</h4>
+                </li>
+            </ul>   
+        </section>
+
+          <!-- ============================ -->
+        <!--  SEÇÃO DE RECURSOS -->
+        <!-- Apresenta os principais diferenciais e botão para abrir o modal -->
+        <!-- ============================ -->
+        <section id="features" class="section-features">
+            <div>
+                <h2 class="section-title">Recursos Incriveis</h2>
+                <a href="#" id="open-modal-btn" class="cta-button secondary-cta">Ver Detalhes Exclusivos</a>
+            </div>
+        </section>
+
+        <!-- ============================ -->
+        <!--  SEÇÃO DE ESTATÍSTICAS -->
+        <!-- Contadores animados com resultados da empresa -->
+        <!-- ============================ -->
+          <section id="stats-section" class="stats-section">
+            
+                <h2 class="section-title">Nossos Resultados</h2>
+              
+              <div class="counters-container">
+
+                <div class="counter-block">
+                    <span class="counter-value" data-target="15000">0</span>
+                    <p class="counter-label">Clientes Satisfeitos</p>
+                </div>
+
+                <div class="counter-block"> 
+                    <span class="counter-value" data-target="98">0</span>
+                    <p class="counter-label">Avaliação Média %</p>
+                </div>
+
+                <div class="counter-block">
+                    <span class="counter-value" data-target="7">0</span>
+                    <p class="counter-label">Suporte 24/7</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ============================ -->
+        <!--  SEÇÃO DE FAQ (PERGUNTAS FREQUENTES) -->
+        <!-- Acordeão com dúvidas mais comuns dos clientes -->
+        <!-- ============================ -->
+        <section id="faq" class="faq-section">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+
+            <div class="accordion-container">
+
+                <div class="accordion-item">
+                    <h3 class="accordion-question">Qual é o valor/custo do serviço?
+                        <span class="accordion-icon">+</span> 
+                    </h3>
+
+                    <div class="accordion-answer-content">
+                        <p>O valor é baseado na complexidade e funcionalidades (como contadores e modal) do seu projeto. Entre em contato para um orçamento detalhado.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-question">Funciona em dispositivos móveis?
+                        <span class="accordion-icon">+</span> 
+                    </h3>
+
+                    <div class="accordion-answer-content">
+                        <p>Sim! O projeto é desenvolvido com design responsivo (Mobile-First) e é testado em todas as telas.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-question">Precisa ter conhecimento técnico para usar?
+                         <span class="accordion-icon">+</span> 
+                    </h3>
+
+                    <div class="accordion-answer-content">
+                        <p>Não! O sistema é entregue de forma intuitiva, e você receberá um vídeo-guia completo para gerenciar o conteúdo e fazer atualizações básicas.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-question">Como funciona o processo de criação?
+                         <span class="accordion-icon">+</span> 
+                    </h3>
+
+                    <div class="accordion-answer-content">
+                        <p>Nosso Processo é transparente: 1) Reunião de Escopo. 2) Design/Prototipagem. 3) Desenvolvimento. 4) Testes rigorosos e Lançamento.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-question">O que está incluído no projeto final?
+                         <span class="accordion-icon">+</span> 
+                    </h3>
+
+                    <div class="accordion-answer-content">
+                        <p>Código limpo, arquivos (HTML, CSS, JS), 1 ano de suporte inicial, hospedagem (se for o caso).</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+         <!-- ============================ -->
+        <!--  SEÇÃO DE CONTATO -->
+        <!-- Formulário para envio de mensagem e e-mail -->
+        <!-- ============================ -->
+        <section  id="contact" class="contact-section">
+            <h2 class="section-title">Fale Conosco</h2>
+
+            <form  id="contact-form" class="contact-form-container">
+                <input type="email" 
+                       id="email-input"  
+                       class="form-input"  
+                       name="email"  
+                       placeholder="Seu melhor e-mail" 
+                       required
+                       >
+                <textarea 
+                     id="message-input"
+                     name="message"
+                     placeholder="Sua mensagem"
+                     class="form-input form-textarea"
+                     rows="5" 
+                     required
+                ></textarea>
+        
+        <button type="submit" class="cta-button submit-button">
+            Enviar Mensagem
+        </button>
+            </form>
+        </section> 
+
+    </main>
+
+    <!-- ============================ -->
+    <!--  RODAPÉ -->
+    <!-- Contém links sociais, informações legais e direitos autorais -->
+    <!-- ============================ -->
+    <footer >
+        <div class="footer-container">
+
+            <div class="footer-links">
+                <h4>Siga-nos</h4>
+                <ul class="social-links">
+                    <li><a href="#" aria-label="LinkedIn"><img src="assets/LinkedIn.png" width="50px"></a></li>
+                    <li><a href="#" aria-label="Instagram"><img src="assets/Instagram.png" width="80px"></a></li>
+                </ul>
+            </div>
+
+            <div class="footer-info">
+                <p>&copy; 2025 Landing Page Interativa. Todos os direitos reservados.</p>
+                <ul class="legal-links">
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#home">Voltar ao Topo</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
