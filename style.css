@@ -379,8 +379,13 @@ ul {
     transition: max-height 0.4s ease-out;
 }
 
+.accordion-item.active .accordion-answer-content {
+    max-height: 500px;
+}
+
 .accordion-answer-content p {
     padding: 0 1.5rem 1rem;
+    background-color: var(--color-light);
     color: var(--color-gray);
 }
 
