@@ -416,6 +416,22 @@ ul {
     background-color: #0056b3;
 }
 
+.input-error {
+    border: 2px solid #ff4d4d; 
+}
+.error-message {
+    color: #ff4d4d;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+#form-feedback.success {
+    color: #4CAF50; 
+    font-weight: bold;
+}
+#form-feedback.sending {
+    color: #1e90ff; 
+}
+
 /* ========================================
    FOOTER
 ======================================== */
@@ -572,23 +588,4 @@ footer {
         font-size: 3rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
