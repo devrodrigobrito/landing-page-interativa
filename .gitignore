@@ -1,0 +1,13 @@
+# 1. Configurações de Editor e IDEs
+# Ignora a pasta de configurações específicas do VS Code
+.vscode/
+
+# 2. Arquivos de Sistema Operacional
+# Arquivos gerados pelo macOS
+.DS_Store
+# Arquivos de thumbnail/cache do Windows
+Thumbs.db
+
+# 3. Arquivos de Log e Cache Temporários
+*.log
+*.tmp
